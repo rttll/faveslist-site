@@ -3,7 +3,7 @@ module.exports = {
   purge: {
     // enabled: true,
     content: [
-      './www/**/*.html'
+      './src/**/*.html'
     ]
   },
   theme: {

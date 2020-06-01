@@ -1,24 +1,25 @@
 {
-  "name": "thisadrian",
-  "version": "1.0.0",
-  "description": "My site",
+  "name": "faveslist-website",
+  "version": "0.0.1",
+  "description": "Website for the faveslist app",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --watch --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acousens/thisadrian.git"
+    "url": "git+https://github.com/thisadrian/thisadrian.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/acousens/thisadrian/issues"
+    "url": "https://github.com/thisadrian/thisadrian/issues"
   },
-  "homepage": "https://github.com/acousens/thisadrian#readme",
+  "homepage": "https://github.com/thisadrian/thisadrian#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.6",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
