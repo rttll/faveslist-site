@@ -1,0 +1,36 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.shape {
+  height: 200vh;
+  top: -40vh;
+}
+
+.shape-right {
+  right: -310%;
+}
+
+.shape-left {
+  left: -310%;
+}
+
+@media (min-width: 768px) {
+  .shape {
+    height: 200vh;
+    /* top: -30vh  */
+  }
+  .shape-left {
+    left: -50%
+  }
+  .shape-right {
+    display: none
+  }
+}
