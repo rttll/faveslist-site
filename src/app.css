@@ -15,17 +15,19 @@ body {
 
 @media (max-width: 640px) {
   #logo {
-    width: 100%
+    max-width: 90%;
+    margin: auto;
   }
 }
 
 #hero-shape {
   top: -780px; 
-  right: 50%;
+  right: 110%;
 }
 
 @media (max-width: 640px) {
   #hero-shape {
+    /* right: 50%; */
     top: -830px; 
   }
 }
