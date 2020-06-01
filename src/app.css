@@ -9,28 +9,42 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
-.shape {
-  height: 200vh;
-  top: -40vh;
+#logo {
+  width: 500px;
 }
 
-.shape-right {
-  right: -310%;
+@media (max-width: 640px) {
+  #logo {
+    width: 100%
+  }
 }
 
-.shape-left {
-  left: -310%;
+#hero-shape {
+  top: -780px; 
+  right: 50%;
 }
 
-@media (min-width: 768px) {
-  .shape {
-    height: 200vh;
-    /* top: -30vh  */
-  }
-  .shape-left {
-    left: -50%
-  }
-  .shape-right {
-    display: none
+@media (max-width: 640px) {
+  #hero-shape {
+    top: -830px; 
   }
 }
+
+#dancer {
+  min-width: 600px;
+  max-width: 650px;
+  height: auto;
+}
+
+/* 
+'sm': '640px',
+// => @media (min-width: 640px) { ... }
+
+'md': '768px',
+// => @media (min-width: 768px) { ... }
+
+'lg': '1024px',
+// => @media (min-width: 1024px) { ... }
+
+'xl': '1280px',
+// => @media (min-width: 1280px) { ... } */
