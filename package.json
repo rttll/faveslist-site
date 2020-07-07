@@ -4,7 +4,7 @@
   "description": "Website for the faveslist app",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --watch --config webpack.prod.js"
+    "build": "NODE_ENV=production webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",

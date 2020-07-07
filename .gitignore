@@ -2,3 +2,5 @@
 graphics/
 dist/
 node_modules
+
+.vercel
