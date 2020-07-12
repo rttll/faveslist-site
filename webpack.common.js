@@ -23,6 +23,17 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(ico)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]'
+            }
+          }
+        ],
+      },          
+      {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
           {
